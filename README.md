@@ -30,26 +30,6 @@ A full-stack web application to crawl and analyze website URLs. It extracts stru
 
 ---
 
-## 📁 Folder Structure
-
-.
-├── crawler-api/ # Go backend
-│ ├── internal/
-│ │ ├── crawler/ # Core crawling logic
-│ │ ├── db/ # DB connection setup
-│ │ └── models/ # GORM models
-│ └── main.go
-│
-├── crawler-frontend/ # React frontend
-│ ├── src/
-│ │ ├── components/ # Layout, AddUrlForm, UrlTable
-│ │ ├── pages/ # Dashboard, UrlDetails
-│ │ └── types/ # TypeScript types
-│ └── App.tsx
-
-
----
-
 ## 🚀 Getting Started
 
 ### 🛠️ Backend Setup
